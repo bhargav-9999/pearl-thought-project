@@ -1,3 +1,4 @@
+These are the screenshots to show that i implemented the given project (IaC using Terraform,ECS fargate).
 ![Screenshot 2024-06-09 134340](https://github.com/bhargav-9999/pearl-thought-project/assets/155805242/1ab982a8-8767-4bbe-835a-68698473f743)
 ![Screenshot 2024-06-09 135547](https://github.com/bhargav-9999/pearl-thought-project/assets/155805242/577b7b4e-4c64-4763-a9f1-26f7c1046e58)
 ![Screenshot 2024-06-09 140553](https://github.com/bhargav-9999/pearl-thought-project/assets/155805242/c0292877-19c6-453c-a96a-427ee72d1c1c)
