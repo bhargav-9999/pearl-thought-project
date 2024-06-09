@@ -51,7 +51,7 @@ resource "aws_ecs_task_definition" "hello_world" {
 
   container_definitions = jsonencode([{
     name      = "hello-world"
-    image     = "https://hub.docker.com/repository/docker/bhargav99/project/general"
+    image     = "https://hub.docker.com/repository/docker/bhargav99/project"
     essential = true
     portMappings = [{
       containerPort = 3000
@@ -64,6 +64,7 @@ resource "aws_ecs_service" "hello_world" {
   name            = "hello-world-service"
   cluster         = aws_ecs_cluster.hello_world.id
   task_definition = aws_ecs_task_definition.hello_world.arn
+  launch_type = "FARGATE"
   desired_count   = 1
 
   network_configuration {
